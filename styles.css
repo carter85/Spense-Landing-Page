@@ -79,13 +79,54 @@ ul {
     color: white;
 }
 
-#navbar {
-
+/* Navigation */
+#navMidLinks {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    flex-wrap: wrap;
 }
-.navLink {
-
+#navMidLinks li a {
+text-decoration: none;
+color: black;
+padding: 20px;
 }
-#centeredItems {
+#navBrand {
+    font-weight: bold; 
+    font-size:1.5em;
+}
+#navBrand a {
+    padding-left: 0px;
+}
+.navItem {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+#navLinks {
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+#navLinks li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+#navButton {
+    background-color: black;
+    padding: 20px;
+    color: white !important;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+#heroItems {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
 }
