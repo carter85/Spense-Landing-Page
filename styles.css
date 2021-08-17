@@ -202,11 +202,31 @@ padding: 20px;
 }
 .formItem {
   display: flex;
-  width: 250px;
+  width: auto;
+  
+}
+#emailCont {
+  height: 100%;
+  border: 3px solid green;
   
 }
 #email {
-  padding-right: 1em;
-  
+  padding: 10px;
   border-radius: 5%;
+  text-align: center;
+}
+#buttonCont {
+  padding-left: 1em;
+  height: auto;
+}
+
+/* Social Links */
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.socialLogo {
+  width: 150px;
+  padding: 10px;
 }
