@@ -70,7 +70,25 @@ input, button, textarea, select {
 
 
 /* MAIN ITEMS */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 80vw;
+  border: 2px solid green;
+}
+html, body {
+  height: 100%;
+  
+}
 
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
 ul {
     list-style-type: none;
 }
@@ -116,17 +134,73 @@ padding: 20px;
     color: black;
     padding: 20px;
 }
-#navButton {
-    background-color: black;
+.getStartedButton {
+    background-color: grey; /* fix color */
     padding: 20px;
-    color: white !important;
+    color: black;
     text-decoration: none;
     border-radius: 8px;
 }
 
+#navButton {
+  color: white;
+}
+
+/* Hero Section */
 #heroItems {
     display: flex;
     justify-content: space-between;
     margin: auto;
     flex-wrap: wrap;
+}
+#heroCont {
+  display: flex;
+  width: 85vw;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+#heroLeft {
+  width: 50vw;
+  padding: 70px;
+
+}
+#heroRight{
+  padding: 20px 0px;
+  width: 50vw;
+
+}
+#heroRight img {
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#checkCont {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1em;
+}
+.checkItems {
+  display: flex;
+  padding-top: 10px;
+  
+}
+.checkMarks {
+  padding-right: 1em;
+}
+#formCont {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1em;
+  border: 3px dotted black;
+}
+.formItem {
+  display: flex;
+  width: 250px;
+  
+}
+#email {
+  padding-right: 1em;
+  
+  border-radius: 5%;
 }
