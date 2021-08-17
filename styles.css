@@ -72,7 +72,10 @@ html, body {
 .tanBack {
   background-color: #f0eeeb;
 }
-
+#mainCont {
+  max-width: 90vw;
+  align-self: center;
+}
 html {
   display: table;
   margin: auto;
@@ -85,7 +88,9 @@ body {
 ul {
     list-style-type: none;
 }
-
+#headCont {
+  width: 100vw;
+}
 /* Launch Banner */
 #topBanner {
     background-color: black;
@@ -93,6 +98,7 @@ ul {
     height: 50px;
     text-align: center;
     padding: 10px;
+    width: 100vw;
 }
 #spacer {
   height: 20px;
