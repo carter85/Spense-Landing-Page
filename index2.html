@@ -8,7 +8,7 @@
     <!-- Custom CSS -->
     <link href="styles.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Welcome to Spense</title>
   </head>
 
 
@@ -22,16 +22,18 @@
 
 <!-- Header -->
 <!-- Navigation Section -->
-    <nav id="navbar" class="bBlue"> 
+    <nav id="navbar" class="tanBack"> 
         <ul id="navLinks">
-              <li id="navBrand" class="bYell navItem"><a href="#"><strong>spense</strong>  </a></li>  
+              <li id="navBrand" class="navItem"><a href="#"><strong>spense</strong>  </a></li>  
             <ul id="navMidLinks">
-                <li class="bYell navItem"><a href="#">Business                 </a></li>  
-                <li class="bYell navItem"><a href="#">Pricing                  </a></li>  
-                <li class="bYell navItem"><a href="#">Features                 </a></li>  
+                <li class="navItem"><a href="#">Business                 </a></li>  
+                <li class="navItem"><a href="#">Pricing                  </a></li>  
+                <li class="navItem"><a href="#">Features                 </a></li>  
             </ul>  
-              <li class="bYell navItem"><a href="#">Login                    </a></li>  
-              <li id="navButton" class="getStartedButton bYell navItem"><a id="fontColor" href="#"><strong>Get Started</strong>           </a></li>  <!-- $TODO fix font color -->
+            <div id="navRight">
+              <li class="navItem"><a href="#">Login</a></li>  
+              <li id="navButton" class="getStartedButton navItem"><a id="fontColor" href="#"><strong>Get Started</strong>           </a></li>  <!-- $TODO fix font color -->
+            </div>  
     </ul>
   </nav> 
 </header>
@@ -39,7 +41,7 @@
 <!-- Hero Section -->
 
 <!-- Hero Container -->
-<div id="heroCont" class="">
+<div id="heroCont" class="tanBack">
 
 <!-- Left Element -->    
   <!--  $TODO fix paragraph positioning -->
@@ -99,7 +101,7 @@
 
 <!-- Escrow Container -->
     
-      <div id="escrowCont" class="">
+      <div id="escrowCont" class="tanBack">
 
         <!-- Left Element -->    
           <div id="escrowLeft" class=""> 
@@ -124,16 +126,17 @@
 <!-- Text Editor Container -->
 
 <!-- Text Editor Container -->
-<div id="tEditorCont">
+<div id="tEditorCont" class="bYell">
         <!-- Left Element -->  
-        <div id="tEditorLeft">
+        <div id="tEditorLeft" class="bBlue">
           <img class="" src="Assets/Text Editor.png">
         </div>
         
         <!-- Right Element -->        
-        <div id="tEditorRight">
-          <p>A text editor like no other.</p>
+        <div id="tEditorRight" class="bBlue">
+          <h2>A text editor like no other.</h2>
           <p>Our text editor pulls you into focus mode with it's simplistic design and usability so you can put out your best writings.</p>
+          <a id="liveDemo" href="#">Text Editor Live Demo -></a>  <!-- $TODO fix padding -->
         </div>
     
       
@@ -144,7 +147,8 @@
 <footer>
   
         <ul id="footerCont" class="">
-          <li class="footerItem">
+          <li id="footerOne" class="footerItem">
+
             <p><strong>spense.</strong></p>
             <p>Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doing just that.</p>
           </li>
