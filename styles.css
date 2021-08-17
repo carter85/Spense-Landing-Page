@@ -90,14 +90,24 @@ ul {
 #topBanner {
     background-color: black;
     color: white;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
 }
+#spacer {
+  height: 20px;
+  width: auto;
+  background-color: #f0eeeb;
 
+}
 /* Navigation */
 #navMidLinks {
     display: flex;
+    
     list-style: none;
     margin: auto;
     flex-wrap: wrap;
+    width: 30vw;
 }
 #navMidLinks li a {
 text-decoration: none;
@@ -106,7 +116,8 @@ padding: 20px;
 }
 #navBrand {
     font-weight: bold; 
-    font-size:1.5em;
+    font-size: 1em;
+    width: 25vw;
 }
 #navBrand a {
     padding-left: 0px;
@@ -127,7 +138,7 @@ padding: 20px;
 #navLinks li a {
     text-decoration: none;
     color: black;
-    padding: 20px;
+    padding: 10px;
 }
 #navLinks li a#fontColor {
   color: white;
@@ -135,26 +146,24 @@ padding: 20px;
 #navRight {
   display: flex;
   flex-direction: row;
+  width: 25vw;
 
 }
-.getStartedButton {
+#navButton {
     background-color: black;
-    width: 150px;
-    height: 50px;
+    height: auto;
+    width: auto;
+    padding: -10px;
     text-align: center;
-    text-justify: center;
     text-decoration: none;
     border-radius: 8px;
 }
-.getStartedButton a {
+#navButton a {
   color: white;
   text-decoration: none;
-  
-}
+  padding: 10px 20px 10px 20px;
+  }
 
-#navButton {
-  color: white;
-}
 
 /* Hero Section */
 #heroItems {
@@ -165,7 +174,7 @@ padding: 20px;
 }
 #heroCont {
   display: flex;
-  width: 85vw;
+  width: 100vw;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -208,6 +217,19 @@ padding: 20px;
   display: flex;
   width: auto;
   
+}
+.formButton {
+  background-color: black;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.formButton a {
+color: white;
+text-decoration: none;
 }
 #emailCont {
   height: 100%;
