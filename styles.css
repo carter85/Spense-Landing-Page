@@ -1,4 +1,5 @@
 /* CSS RESET */
+
 /* Box sizing rules */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -48,31 +49,28 @@ input, button, textarea, select {
   }
 }
 
-
 /* MAIN ITEMS */
+#mainCont {
+  align-self: center;
+  max-width: 100vw;
+}
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .tanBack {
   background-color: #f0eeeb;
 }
-#mainCont {
-  max-width: 100vw;
-  align-self: center;
-}
-ul {
-    list-style-type: none;
-}
+
 /* Launch Banner */
+#bannerText {
+  padding: 1em;
+}
 #topBanner {
     background-color: black;
     color: white;
     height: 50px;
     text-align: center;
     width: 100vw;
-}
-#bannerText {
-  padding: 1em;
 }
 
 /* Navigation */
@@ -93,64 +91,57 @@ ul {
   margin: auto;
   flex-wrap: wrap;
 }
+#navLinks li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+#navLinks li a#fontColor {
+color: white;
+}
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+#navBrand {
+  font-weight: bold; 
+  font-size: 1em;
+}
+#navBrand a {
+  padding-left: 0px;
+}
 #navMidLinks {
     display: flex;
-    list-style: none;
     margin: auto;
     flex-wrap: wrap;
 }
 #navMidLinks li a {
-text-decoration: none;
-color: black;
-padding: 20px;
-}
-#navBrand {
-    font-weight: bold; 
-    font-size: 1em;
-    
-}
-#navBrand a {
-    padding-left: 0px;
-}
-.navItem {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    flex-wrap: wrap;
-}
-
-#navLinks li a {
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-}
-#navLinks li a#fontColor {
-  color: white;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
 }
 #navRight {
   display: flex;
   flex-direction: row;
-
 }
 #navButton {
-    background-color: black;
-    height: auto;
-    width: auto;
-    padding: -10px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 8px;
+  background-color: black;
+  height: auto;
+  width: auto;
+  padding: -10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
 }
 #navButton a {
   color: white;
   text-decoration: none;
   padding: 10px 20px 10px 20px;
-  }
-
+}
 
 /* Hero Section */
-
 #heroCont {
   display: flex;
   width: 100vw;
@@ -160,18 +151,6 @@ padding: 20px;
 #heroLeft {
   width: 40vw;
   padding: 70px;
-
-}
-#heroRight{
-  padding: 20px;
-  width: 40vw;
-
-}
-#heroRight img {
-  width: 30vw;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 #checkCont {
   display: flex;
@@ -181,7 +160,6 @@ padding: 20px;
 .checkItems {
   display: flex;
   padding-top: 10px;
-  
 }
 .checkMarks {
   padding-right: 1em;
@@ -191,10 +169,24 @@ padding: 20px;
   flex-direction: row;
   padding-top: 1em;
 }
+#emailCont {
+  height: auto;
+}
 .formItem {
   display: flex;
   width: auto;
-  
+}
+#email {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border-radius: 5%;
+  text-align: center;
+}
+#buttonCont {
+  padding-left: 1em;
+  height: auto;
 }
 .formButton {
   background-color: black;
@@ -209,21 +201,15 @@ padding: 20px;
 color: white;
 text-decoration: none;
 }
-#emailCont {
-  height: auto;
-  
+#heroRight{
+  padding: 20px;
+  width: 40vw;
 }
-#email {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 0px;
-  padding-left: 0px;
-  border-radius: 5%;
-  text-align: center;
-}
-#buttonCont {
-  padding-left: 1em;
-  height: auto;
+#heroRight img {
+  width: 30vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 /* Social Links */
@@ -246,21 +232,17 @@ text-decoration: none;
   padding: 10px;
 }
 
-
 /* Escrow Section */
-
-
 #escrowCont {
-display: flex;
-width: 80vw;
-border-radius: 5% 0% 0% 0%;
-margin: auto;
-justify-content: space-around;
-
+  display: flex;
+  width: 80vw;
+  border-radius: 5% 0% 0% 0%;
+  margin: auto;
+  justify-content: space-around;
 }
 #escrowLeft {
-width: 35vw;
-padding: 70px;
+  width: 35vw;
+  padding: 70px;
 }
 #escrowLeft div a {
   color: black;
@@ -268,16 +250,13 @@ padding: 70px;
   padding-top: 20px;
 }
 #escrowRight{
-width: 35vw;
+  width: 35vw;
 }
 #escrowRight img {
-padding-bottom: 0%;
+  padding-bottom: 0%;
 }
 
-
 /* Text Editor Section */
-
-
 #tEditorCont {
   display: flex;
   flex-direction: row;
@@ -289,18 +268,15 @@ padding-bottom: 0%;
   #tEditorLeft {
   width: 35vw;
   }
+  #tEditorRight {
+    width: 35vw;
+    padding: 70px;
+  }
   #tEditorRight a {
     color: black;
     display: flex;
     padding-top: 20px;
   }
-  #tEditorRight {
-  width: 35vw;
-  padding: 70px;
-  }
-
-  
-
 
 /* Footer Section */
 #footerCont {
@@ -311,6 +287,10 @@ padding-bottom: 0%;
   color: white;
   justify-content: center;
 }
+#footerOne {
+  width: 32vw;
+  padding: 25px;
+}
 .footerItem {
   display: flex;
   flex-direction: column;
@@ -319,10 +299,6 @@ padding-bottom: 0%;
 .footerItem a {
   text-decoration: none;
   color: white;
-}
-#footerOne {
-  width: 32vw;
-  padding: 25px;
 }
 #footerCont li a {
   padding: 5px;
