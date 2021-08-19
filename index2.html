@@ -12,20 +12,14 @@
   </head>
 <div id="mainCont">
 <body>
-
-
-
-<!-- Top Banner Element -->
-<header id="headCont">
-  <div id="topBanner">
+  <div id="topBanner">  <!-- Top Banner Element -->
     <p id="bannerText">🎉 To celebrate Spense's launch, we will be waiving all fees for the entire month of April. <u>You will be receiving 100% of the earnings.</u> 🎉</p>
   </div>
 
-<!-- Header -->
-<!-- Navigation Section -->
-  <div id="navCont" class="tanBack">
+<header id="headerWrapper"> <!-- Header -->
+  <div class="container"> <!-- Navigation Section -->
     <nav id="navbar"> 
-      <ul id="navLinks">
+      <ul class="container">
         <li id="navBrand" class="navItem"><a href="#"><strong>spense.</strong>  </a></li>  
       <ul id="navMidLinks">
         <li class="navItem smallHide"><a href="#">Business</a></li>  
@@ -47,9 +41,9 @@
 </header>
 
 
-<section> <!-- Hero Section -->
-<div id="heroCont" class="tanBack container"> <!-- Hero Container -->
-  <div id="heroLeft" class="">  <!-- Left Element -->   
+<section id="heroWrapper"  >                     <!-- Hero Section -->
+<div class="container">                  <!-- Hero Container -->
+  <div id="heroLeft">                          <!-- Left Element -->   
     <h1 class=""><strong>Share your unfiltered thoughts. Get Paid.</strong></h1>
     <p class="">Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doing <em>just</em> that.</p>
    <div id="checkCont" class="">
@@ -57,7 +51,7 @@
     <div class="checkItems"><img src="Assets/Checkmark.svg" class="checkMarks"><p class="">Get paid via Debit Card, ACH, or PayPal.</p>  </div>
     <div class="checkItems"><img src="Assets/Checkmark.svg" class="checkMarks"><p class="">Withdraw your earnings anytime.       </p>  </div>
   </div>
-  <div id="formCont"> <!-- Form Element -->
+  <div id="formCont">                                           <!-- Form Element -->
     <div id="emailCont">
       <input id="email" class="formItem" type="email" placeholder="john@example.com" name="email" required>
     </div>
@@ -65,64 +59,59 @@
       <div class="formButton formItem"><a href="#"><strong>Get Started</strong></a></div> 
     </div>
   </div>
-    <div id="heroRight" class=""> <!-- Right Element -->
+    <div id="heroRight" class="">                                <!-- Right Element -->
       <img class="" src="Assets/Hero Image.png">
   </div>
 </div>
 </section>
-<!-- Logos Section -->
-<!-- Logos Container -->
-<div id="logosCont">
-<!-- Logos Links --> <!-- $TODO fix left side padding issue - WHAT THE HELL IS THIS THING it isn't facebook's fault            fix google and reddit sizing             -->
-  <ul class="socialLinks">
-    <li class="socialLogo"><a href="#"><img src="Assets/Facebook Logo.png">    </a></li>
-    <li class="socialLogo"><a href="#"><img src="Assets/Dribbble Logo.png">    </a></li>
-    <li class="socialLogo"><a href="#"><img src="Assets/Youtube Logo.png">     </a></li>     
-    <li class="socialLogo"><a href="#"><img src="Assets/Pinterest Logo.png">   </a></li>
-    <li class="socialLogo"><a href="#"><img src="Assets/Twitter Logo.png">     </a></li>
-    <li class="socialLogo"><a href="#"><img src="Assets/Reddit Logo.png">      </a></li>
-    <li class="socialLogo"><a href="#"><img src="Assets/Google Logo.png">      </a></li>
-    <li class="socialLogo"><a href="#"><img src="Assets/Slack Logo.png">       </a></li>
-  </ul>
-</div>
 
-<!-- Escrow Section -->
-<!-- Escrow Container -->
-<div id="escrowCont" class="tanBack"> <!-- $TODO fix border radius -->
-<!-- Left Element -->    
-  <div id="escrowLeft" class=""> 
-    <div class="">
+<section id="logosWrapper"  >                             <!-- Logos Section -->
+  <div class="container">                               <!-- Logos Container -->
+    <ul class="logos">                                  <!-- Logos --> 
+      <li class="socialLogo"><img src="Assets/Facebook Logo.png">  </li>
+      <li class="socialLogo"><img src="Assets/Dribbble Logo.png">  </li>
+      <li class="socialLogo"><img src="Assets/Youtube Logo.png">   </li>     
+      <li class="socialLogo"><img src="Assets/Pinterest Logo.png"> </li>
+      <li class="socialLogo"><img src="Assets/Twitter Logo.png">   </li>
+      <li class="socialLogo"><img src="Assets/Reddit Logo.png">    </li>
+      <li class="socialLogo"><img src="Assets/Google Logo.png">    </li>
+      <li class="socialLogo"><img src="Assets/Slack Logo.png">     </li>
+    </ul>
+  </div>
+</section>
+
+<section id="escrowWrapper"  >                 <!-- Escrow Section -->
+  <div class="container">                    <!-- Escrow Container -->
+    <div id="escrowLeft">                    <!-- Left Element -->    
       <h2>Secure your money with Escrow.</h2>
       <p>Spense uses Escrow to secure all payments. We believe Escrow offers the highest level of security for your payments, 
         so you never need to worry about scams.</p>
       <a id="learnMore" href="#"><u>Learn more about Escrow →</u></a>
     </div>
+    <div id="escrowRight">                        <!-- Right Element -->
+      <img id="escrowImg" src="Assets/Phone Mockup2.png">
+    </div>
   </div>
-<!-- Right Element -->
-  <div id="escrowRight" class=""> 
-    <img id="escrowImg" class="" src="Assets/Phone Mockup2.png">
-  </div>
-</div>
+</section>
 
-<!-- Text Editor Section -->
-<!-- Text Editor Container -->
-<div id="tEditorCont" class="">
-<!-- Left Element -->  
-  <div id="tEditorLeft" class="">
-    <img class="" src="Assets/Text Editor.png">
-  </div>
-<!-- Right Element -->        
-  <div id="tEditorRight" class="">
-    <h2>A text editor like no other.</h2>
-    <p>Our text editor pulls you into focus mode with it's simplistic design and usability so you can put out your best writings.</p>
-    <a id="liveDemo" href="#">Text Editor Live Demo →</a>  
-  </div>
-</div>
 
-<!-- Footer -->
-<footer>
-  <ul id="footerCont" class="">
-    <li id="footerOne" class="footerItem">
+
+<section id="tEditorWrapper"  >                           <!-- Text Editor Section -->
+  <div class="container">                           <!-- Text Editor Container -->
+    <div id="tEditorLeft" class="">             <!-- Left Element -->  
+      <img class="" src="Assets/Text Editor.png">
+    </div>
+    <div id="tEditorRight" class="">                <!-- Right Element -->        
+      <h2>A text editor like no other.</h2>
+      <p>Our text editor pulls you into focus mode with it's simplistic design and usability so you can put out your best writings.</p>
+      <a id="liveDemo" href="#">Text Editor Live Demo →</a>  
+    </div>
+  </div>
+</section>
+
+<footer id="footerWrapper"  >                 <!-- Footer Section -->
+  <ul class="container">             <!-- Footer Container -->
+    <li id="footerOne" class="footerItem">  
      <p><strong>spense.</strong></p>
       <p>Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doing just that.</p>
     </li>
