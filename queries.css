@@ -78,7 +78,7 @@
     padding: 0px;
   }
 }
-@media screen and (max-width: 355px) {
+@media screen and (max-width: 380px) {
     #formCont {
         flex-direction: column;
     }
