@@ -7,156 +7,167 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
+
     <!-- Custom CSS -->
     <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="queries.css">
 
-    <title>Hello, world!</title>
+    <title>Welcome to Spense</title>
   </head>
-  <body>
 
-    <!-- Header -->
+<!-- Full Page Container -->  
+<div id="mainCont">
+<body>
 
-    <header class="p-3 bg-dark text-white container-fluid align-content-center">
-      <div class="row text-center">
-      <p>🎉To celebrate Spense's launch, we will be waiving all fees for the entire month of April. <u>You will be receiving 100% of the earnings.</u>🎉</p>
-      </div>
-    </header>
-    
-    <!-- Navbar -->
-
-    <nav class="Bblue container-lg">       <!-- main container navbar navbar-light  -->
-      <div class="Bred row">                                <!-- row container -->
-
-            
-              <div class="Byellow col-3"><a href="#"><strong>spense</strong></a></div>  <!-- individual item -->
-              <div class="Byellow col-2"><a href="#">             </a></div>            <!-- spacer item -->      
-              <div class="Byellow col-1 text-center"><a href="#">Business     </a></div>            <!-- individual item -->      
-              <div class="Byellow col-1 text-center"><a href="#">Pricing      </a></div>            <!-- individual item -->
-              <div class="Byellow col-1 text-center"><a href="#">Features     </a></div>            <!-- individual item -->
-              <div class="Byellow col-1"><a href="#">             </a></div>            <!-- spacer item -->      
-              <div class="Byellow col"><a href="#">Login          </a></div>            <!-- individual item -->
-              <button class="btn btn-dark col"><a href="#">Get Started</a></button>>            <!-- individual item -->
-            
-        
-      </div>
- 
-    
-  </nav> 
-
-  <!-- stopped here, working on the layout for the hero section -->
-
-<!-- Hero Section -->
-<div class="container-fluid row Bred"> <!-- container for hero section -->
-  <div class="container col-6 text-center Bblue"> <!-- container for left side elements -->
-    <h1 class="Byellow"><strong>Share your unfiltered thoughts. Get Paid.</strong></h1>
-    <p class="Byellow">Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doing <em>just</em> that.</p>
-    <div class="container d-flex row justify-content-evenly">
-
-  <div class="container-fluid  d-flex row align-content-start Bblue">
-    <div class="Byellow col-4 d-flex align-self-start"><img src="Assets/Checkmark.svg"> Receive 99% off the earnings.             </div>
-    <div class="Byellow col-4 d-flex align-self-start"><img src="Assets/Checkmark.svg"> Get paid via Debit Card, ACH, or PayPal.  </div>
-    <div class="Byellow col-4 d-flex align-self-start"><img src="Assets/Checkmark.svg"> Withdraw your earnings everytime.         </div>
-  </div>
-
-    <div class="container col-4 row">  <!-- get started container -->
-      <div class="Bblue col">enter box thing</div>
-      <div class="Bblue col">get started button</div>
-    </div>
-    </div>
-    </div>
-    <div class="container text-center col-6"> <!-- container for right side element -->
-    <img class="hero-image col" src="Assets/Hero Image.png">
+<!-- Top Banner -->  
+<div id="bannerWrapper" class="container-fluid d-flex justify-content-center text-center">
+  <div id="bannerCont" class="col-10 p-2">
+    <p id="bannerText">🎉 To celebrate Spense's launch, we will be waiving all fees for the entire month of April. <u>You will be receiving 100% of the earnings.</u> 🎉</p>
   </div>
 </div>
-  
 
-
-    <!-- Logos -->
-
-    <div class=" phil row container-fluid">
-      <ul class="list-group list-group-horizontal">
-        <li class=""><a href="#"><img class="links" src="Assets/Facebook Logo.png"></a></li>
-        <li class=""><a href="#"><img class="links" src="Assets/Dribbble Logo.png"></a></li>
-        <li class=""><a href="#"><img class="links" src="Assets/Youtube Logo.png"></a></li>
-        <li class=""><a href="#"><img class="links" src="Assets/Pinterest Logo.png"></a></li>
-        <li class=""><a href="#"><img class="links" src="Assets/Twitter Logo.png"></a></li>
-        <li class=""><a href="#"><img class="links" src="Assets/Reddit Logo.png"></a></li>
-        <li class=""><a href="#"><img class="links" src="Assets/Google Logo.png"></a></li>
-        <li class=""><a href="#"><img class="links" src="Assets/Slack Logo.png"></a></li>
+<!-- Header / Navbar -->
+<header>
+  <nav class="navbar navbar-expand-sm greyBack">
+    <div class="container-fluid  col-10">
+      <a class="navbar-brand d-flex" href="#">spense.</a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+        <span class="navbar-toggler-icon"><img src="Assets/Hamburger Menu.svg"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav me-auto mx-auto d-flex mb-2 mb-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Business</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+      </ul>
+      <ul id="navRight" class="d-flex align-middle flex-row">
+        <li class="nav-item pe-1 p-0 align-middle"> 
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item pt-2"> 
+          <a class="nav-link" href="#"><button class="btn btn-dark ">Get Started</button></a>
+        </li>
       </ul>
     </div>
+    </div>
+  </nav>
+</header>
 
-    <!-- Escrow -->
-
-    <div class="container-fluid">
-      <div class="phil row container-lg">
-        <div class="col">
-          <h2>Secure your money with Escrow.</h2>
-          <p>Spense uses Escrow to secure all payments. We believe Escrow offers the highest level of security for your payments, 
-            so you never need to worry about scams.</p>
-          <a href="#"><u>Learn more about Escrow -></u></a>
+<!-- Hero Section -->
+<section id="heroWrapper" class="greyBack d-flex"> 
+  <div class="container-md d-flex  justify-content-around p-3" id="heroCont"> 
+    <div id="heroLeft" class="col-sm-5 p-3">               
+      <h1 class=""><strong>Share your unfiltered thoughts. Get Paid.</strong></h1>
+      <p class="">Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doing <em>just</em> that.</p>
+      <div id="checkCont" class="d-flex flex-column">
+        <div class="checkItems d-flex"><img src="Assets/Checkmark.svg" class="checkMarks"><span class="p-1 ps-3">Receive 99% off the earnings.           </span> </div>
+        <div class="checkItems d-flex"><img src="Assets/Checkmark.svg" class="checkMarks"><span class="p-1 ps-3">Get paid via Debit Card, ACH, or PayPal.</span> </div>
+        <div class="checkItems d-flex"><img src="Assets/Checkmark.svg" class="checkMarks"><span class="p-1 ps-3">Withdraw your earnings anytime.         </span> </div>
+      </div>
+      <div id="formCont" class="d-flex pt-4">                                           
+        <div id="emailCont" class="d-flex">
+          <input id="email" class="formItem py-2 px-0 text-center" type="email" placeholder="john@example.com" name="email" required>
         </div>
-        <div class="col">
-          <img class="hero-image" src="Assets/Phone Mockup.png">
+        <div class="ps-2">
+          <a href="#" id="heroButton"><button class="btn btn-dark">Get Started</button></a>
         </div>
       </div>
     </div>
-    
-    <!-- Text Editor -->
-
-    <div class="row">
-      <div class="test col"><img class="hero-image" src="Assets/Text Editor.png"></div>
-      <div class="col">
-        <p>A text editor like no other.</p>
-        <p>Our text editor pulls you into focus mode with it's simplistic design and usability so you can put out your best writings.</p>
-      </div>
+    <div id="heroRight" class="col-sm-5 d-flex">                               
+      <img id="bigHero" class="img-fluid" src="Assets/Hero Image.png"> 
+      <img id="smallHero" class="img-fluid" src="Assets/Hero Image Tablet.png">
     </div>
+  </div>
+</section>
 
+<!-- Logos Section -->
+<section id="logosWrapper" class="p-3"> 
+  <div id="logoCont" class="container d-flex justify-content-between"> 
+    <div class="socialLogo p-2 ps-0" id="logoOne">  <img class="img-fluid" src="Assets/Facebook Logo.png"> </div>
+    <div class="socialLogo p-2" id="logoTwo">       <img class="img-fluid" src="Assets/Dribbble Logo.png"> </div>
+    <div class="socialLogo p-2" id="logoThree">     <img class="img-fluid" src="Assets/Youtube Logo.png">  </div>
+    <div class="socialLogo p-2" id="logoFour">      <img class="img-fluid" src="Assets/Pinterest Logo.png"></div>
+    <div class="socialLogo p-2" id="logoFive">      <img class="img-fluid" src="Assets/Twitter Logo.png">  </div>
+    <div class="socialLogo p-2" id="logoSix">       <img class="img-fluid" src="Assets/Reddit Logo.png">   </div>
+    <div class="socialLogo p-2" id="logoSeven">     <img class="img-fluid" src="Assets/Google Logo.png">   </div>
+    <div class="socialLogo p-2 pe-0" id="logoEight"><img class="img-fluid" src="Assets/Slack Logo.png">    </div> 
+  </div>
+</section>
 
-    <!-- Footer -->
+<!-- Escrow Section -->
+<section id="escrowWrapper">
+  <div class="container-md d-flex justify-content-around greyBack" id="escrowCont">  
+    <div id="escrowLeft" class="col-sm-5 p-3 "> 
+      <h2>Secure your money with Escrow.</h2>
+      <p>Spense uses Escrow to secure all payments. We believe Escrow offers the highest level of security for your payments, 
+        so you never need to worry about scams.</p>
+        <div id="learnCont">
+          <a id="learnMore" href="#">
+            <u>Learn more about Escrow →</u>
+          </a>
+        </div>
+    </div>
+    <div id="escrowRight" class="col-sm-5 p-0"> 
+      <img id="escrowImg" class="img-fluid" src="Assets/Phone Mockup2.png">
+    </div>
+  </div>
+</section>
 
-    <footer class="phil container-fluid">
-      <div class=" phil container-lg">
-        <ul class="list-group list-group-horizontal">
-          <li class="">
-            <p>spense.</p>
-            <p>Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doing just that.</p>
-          </li>
-          <li class="">
-            <p>Sitemap</p>
-            <p>Homepage</p>
-          </li>
-          <li class="">
-            <p>Resources</p>
-            <p>Support</p>
-            <p>Contact</p>
-            <p>FAQ</p>
-          </li>
-          <li class="">
-            <p>Company</p>
-            <p>About</p>
-            <p>Customers</p>
-            <p>Blog</p>
-          </li>
-          <li class="">
-            <p>Opportunities</p>
-            <p>Jobs</p>
-          </li>
-        </ul>
-      </div>
-    </footer>
+<!-- Text Editor Section -->
+<section id="tEditorWrapper">                           
+  <div class="container-md  d-flex justify-content-around p-3" id="tEditCont">
+    <div id="tEditorLeft" class="col-sm-5 "> 
+      <img class="img-fluid" src="Assets/Text Editor.png">
+    </div>
+    <div id="tEditorRight" class="col-sm-5  p-4"> 
+      <h2>A text editor like no other.</h2>
+      <p>Our text editor pulls you into focus mode with it's simplistic design and usability so you can put out your best writings.</p>
+      <a id="liveDemo" href="#">Text Editor Live Demo →</a>  
+    </div>
+  </div>
+</section>
 
+<!-- Footer Section -->
+<footer id="footerWrapper" class="container-fluid footer">
+  <ul class="container d-flex" id="footCont"> 
+    <li id="footerOne" class="footerItem d-flex flex-column">  
+      <p><strong>spense.</strong></p>
+      <p>Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doing <em>just</em> that.</p>
+    </li>
+    <li id="footerTwo" class="footerItem  d-flex flex-column p-3">
+      <p><strong>Sitemap</strong></p>
+      <a href="#"><p>Homepage</p></a>
+    </li>
+    <li id="footerThree" class="footerItem d-flex flex-column p-3">
+      <p><strong>Resources</strong></p>
+      <a href="#"><p>Support</p></a>
+      <a href="#"><p>Contact</p></a>
+      <a href="#"><p>FAQ</p></a>
+    </li>
+    <li id="footerFour" class="footerItem d-flex flex-column p-3">
+      <p><strong>Company</strong></p>
+      <a href="#"><p>About</p></a>
+      <a href="#"><p>Customers</p></a>
+      <a href="#"><p>Blog</p></a>
+    </li>
+    <li id="footerFive" class="footerItem d-flex flex-column p-3">
+      <p><strong>Opportunities</strong></p>
+      <a href="#"><p>Jobs</p></a>
+    </li>
+  </ul>
+</footer> 
 
-    <!-- Optional JavaScript; choose one of the two! -->
+</body>
+</div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- Bootstrap JavaScript Links -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
 </html>

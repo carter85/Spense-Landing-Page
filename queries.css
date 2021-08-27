@@ -1,0 +1,83 @@
+@media screen and (min-width: 780px) and (max-width: 991px) {
+    #heroRight {
+        padding-left: 20px !important;
+        width: 38vw !important;
+    }
+    #escrowRight {
+        padding: 0px !important;
+        width: 50%;
+    }
+}
+/*  */
+@media screen and (max-width: 991px) {
+    .spacer {
+        padding: 0px !important;
+        width: 0px !important;
+    }
+}
+/*  */
+@media screen and (max-width: 990px) {
+    #bigHero {
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+    }
+    #footerOne {
+      padding: 20px;
+    }
+}
+/*  */
+@media screen and (max-width: 780px) {
+    #heroLeft, #heroRight, #escrowLeft, #escrowRight, #tEditorLeft, #tEditorRight {
+        padding: 40px;
+        justify-content: center;
+        width: 100%;
+    }
+    #logoFour, #logoFive, #logoSix, #logoSeven, #logoEight {
+        display: none;
+    }
+    #heroCont, #tEditCont {
+        flex-direction: column-reverse;
+    }
+    #bigHero {
+        display: none;
+    }
+    #escrowCont {
+        flex-direction: column;
+    }
+    #footCont {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #heroWrapper {
+      justify-content: center;
+    }
+    .navHide {
+      display: none;
+    }
+    #smallHero {
+        display: flex;
+    }
+}
+/*  */
+@media screen and (max-width: 575px) {
+    #navRight {
+      flex-direction: column !important;
+      padding: 0px;
+    } 
+    #navRight .nav-link {
+      padding: 0px 0px;
+    }
+}
+/*  */
+@media screen and (min-width: 576px) {
+  #navRight {
+    align-content: flex-end;
+    align-items: center;
+    
+  } 
+  #navRight .nav-link {
+    padding: 0px;
+  }
+}
