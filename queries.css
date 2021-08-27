@@ -1,8 +1,11 @@
 @media screen and (min-width: 780px) and (max-width: 991px) {
     #heroRight {
         padding-left: 20px !important;
-        width: 38vw !important;
+        width: 50vw !important;
     }
+    #bigHero img {
+        width: 100%;
+    } 
     #escrowRight {
         padding: 0px !important;
         width: 50%;
@@ -17,12 +20,6 @@
 }
 /*  */
 @media screen and (max-width: 990px) {
-    #bigHero {
-        height: auto;
-        margin: 0px;
-        padding: 0px;
-        width: auto;
-    }
     #footerOne {
       padding: 20px;
     }
