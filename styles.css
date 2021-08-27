@@ -50,6 +50,12 @@ input, button, textarea, select {
 }
 
 /* Personal CSS */
+body {
+  font-family: "Cabin", sans-serif;
+}
+.fC {
+  color: #5a5444;
+}
 #bannerWrapper, #footerWrapper {
   background-color: black;
   color: white;
