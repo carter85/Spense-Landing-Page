@@ -11,20 +11,20 @@
         width: 50%;
     }
 }
-/*  */
+
 @media screen and (max-width: 991px) {
     .spacer {
         padding: 0px !important;
         width: 0px !important;
     }
 }
-/*  */
+
 @media screen and (max-width: 990px) {
     #footerOne {
       padding: 20px;
     }
 }
-/*  */
+
 @media screen and (max-width: 780px) {
     #heroLeft, #heroRight, #escrowLeft, #escrowRight, #tEditorLeft, #tEditorRight {
         padding: 40px;
@@ -57,7 +57,7 @@
         display: flex;
     }
 }
-/*  */
+
 @media screen and (max-width: 575px) {
     #navRight {
       flex-direction: column !important;
@@ -67,7 +67,7 @@
       padding: 0px 0px;
     }
 }
-/*  */
+
 @media screen and (min-width: 576px) {
   #navRight {
     align-content: flex-end;

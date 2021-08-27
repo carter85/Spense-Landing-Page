@@ -48,7 +48,9 @@ input, button, textarea, select {
     scroll-behavior: auto !important;
   }
 }
-
+.bblue {
+  border: 2px solid blue;
+}
 /* Personal CSS */
 body {
   font-family: "Cabin", sans-serif;
@@ -103,4 +105,26 @@ li {
 }
 #smallHero {
   display: none;
+}
+#tEditorRightInner {
+  display: flex;
+  flex-direction: column;
+  
+}
+#tEditorRightInner h2, #tEditorRightInner p {
+  padding: 15px 0px;
+}
+#escrowLeftCont {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#escrowLeft {
+  width: 50%;
+  padding: 50px;
+  justify-items: center;
+  align-items: center;
+}
+#escrowLeftCont h2, #escrowLeftCont p {
+  padding: 15px 0px;
 }
