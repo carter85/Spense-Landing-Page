@@ -64,6 +64,9 @@ nav div a, #navMid li a, #navRight li a {
   color: black;
   text-decoration: none;
 }
+.checkMarks {
+  max-width: 25px;
+}
 #email {
   border-radius: 5px;
 }
