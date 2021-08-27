@@ -78,3 +78,13 @@
     padding: 0px;
   }
 }
+@media screen and (max-width: 320px) {
+    #formCont {
+        flex-direction: column;
+    }
+    #emailCont, #heroButtonCont {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+}
