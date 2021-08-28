@@ -138,3 +138,9 @@ li {
   padding: 15px 0px;
 }
 
+.burgerCont {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
