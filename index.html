@@ -29,14 +29,14 @@
 
 <!-- Header / Navbar -->
 <header>
-  <nav class="navbar navbar-expand-sm greyBack">
-    <div class="container-fluid  col-10">
-      <a class="navbar-brand d-flex" href="#">spense.</a>
+  <nav class="navbar navbar-expand-sm greyBack ">
+    <div id="navCont" class="container-fluid  col-10">
+      <a class="navbar-brand d-flex " href="#">spense.</a>
       <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
         <span class="navbar-toggler-icon"><img src="Assets/Hamburger Menu.svg"></span>
       </button>
-    <div class="collapse navbar-collapse" id="navbarToggler">
-      <ul class="navbar-nav me-auto mx-auto d-flex mb-2 mb-lg-0">
+    <div class="collapse navbar-collapse " id="navbarToggler">
+      <ul class="navbar-nav me-auto mx-auto  d-flex mb-2 mb-lg-0">
         <li class="nav-item ">
           <a class="nav-link" href="#">Business</a>
         </li>
@@ -47,11 +47,11 @@
           <a class="nav-link" href="#">Features</a>
         </li>
       </ul>
-      <ul id="navRight" class="d-flex align-middle flex-row">
+      <ul id="navRight" class="d-flex align-middle my-auto  flex-row">
         <li class="nav-item pe-1 p-0 align-middle"> 
           <a class="nav-link" href="#">Login</a>
         </li>
-        <li class="nav-item pt-2"> 
+        <li class="nav-item "> 
           <a class="nav-link" href="#"><button class="btn btn-dark ">Get Started</button></a>
         </li>
       </ul>
@@ -104,14 +104,16 @@
 <!-- Escrow Section -->
 <section id="escrowWrapper">
   <div class="container-md d-flex justify-content-around greyBack" id="escrowCont">  
-    <div id="escrowLeft" class="col-sm-5 p-5"> 
-      <h2>Secure your money with Escrow.</h2>
-      <p class="fC">Spense uses Escrow to secure all payments. We believe Escrow offers the highest level of security for your payments, 
+    <div id="escrowLeft" class="col-sm-5 py-5"> 
+      <!-- <div id="escrowLeftInner" class=" p-5"> -->
+      <h2 class="py-2"><strong>Secure your money with Escrow.</strong></h2>
+      <p class="fC py-2">Spense uses Escrow to secure all payments. We believe Escrow offers the highest level of security for your payments, 
         so you never need to worry about scams.</p>
-        <div id="learnCont">
+        <div id="learnCont" class="">
           <a id="learnMore" href="#" class="fC">
-            <u>Learn more about Escrow →</u>
+          <u class="">Learn more about Escrow →</u>
           </a>
+        <!-- </div> -->
         </div>
       </div>
   
@@ -122,14 +124,14 @@
 </section>
 
 <!-- Text Editor Section -->
-<section id="tEditorWrapper">                           
-  <div class="container-md  d-flex justify-content-around p-3" id="tEditCont">
-    <div id="tEditorLeft" class="col-sm-5 "> 
+<section id="tEditorWrapper" class=""> 
+  <div class="container-md d-flex justify-content-around p-3" id="tEditCont">
+    <div id="tEditorLeft" class="col-sm-5">
       <img class="img-fluid" src="Assets/Text Editor.png">
     </div>
-    <div id="tEditorRight" class="col-sm-5 p-5"> 
-      <div id="tEditorRightInner">
-        <h2>A text editor like no other.</h2>
+    <div id="tEditorRight" class="col-sm-5 py-5"> 
+      <div id="tEditorRightInner" class="">
+        <h2 class=""><strong>A text editor like no other.</strong></h2>
         <p class="fC">Our text editor pulls you into focus mode with it's simplistic design and usability so you can put out your best writings.</p>
         <a id="liveDemo" href="#" class="fC">Text Editor Live Demo →</a>  
       </div>

@@ -48,8 +48,17 @@ input, button, textarea, select {
     scroll-behavior: auto !important;
   }
 }
-.bblue {
+.bb {
   border: 2px solid blue;
+}
+.bw {
+  border: 2px solid brown;
+}
+.bg {
+  border: 2px solid green;
+}
+.br {
+  border: 2px solid red;
 }
 /* Personal CSS */
 body {
