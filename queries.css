@@ -1,4 +1,4 @@
-@media screen and (min-width: 780px) and (max-width: 991px) {
+/* @media screen and (min-width: 780px) and (max-width: 991px) {
     #heroRight {
         padding-left: 20px !important;
         width: 50vw !important;
@@ -10,7 +10,7 @@
         padding: 0px !important;
         width: 50%;
     }
-}
+} */
 
 @media screen and (max-width: 991px) {
     .spacer {
